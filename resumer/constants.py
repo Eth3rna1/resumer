@@ -1,7 +1,8 @@
 from resumer.utils import get_file_vars
 
-class Constants:
-    ...
+
+class Constants: ...
+
 
 def get_constants_from_file(file: str) -> Constants:
     variables = get_file_vars(file)

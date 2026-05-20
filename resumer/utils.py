@@ -1,6 +1,7 @@
 import os
 
-def get_file_vars(file:str) -> dict[str, str]:
+
+def get_file_vars(file: str) -> dict[str, str]:
     """
     a simple parser for variables
     defined within the given `file` parameter.
