@@ -13,9 +13,7 @@ class Robot:
     def start(self):
         self.playwright = sync_playwright().start()
 
-        self.browser = self.playwright.chromium.launch(
-            headless=self.headless
-        )
+        self.browser = self.playwright.chromium.launch(headless=self.headless)
 
         self.page = self.browser.new_page()
         self.page.set_default_timeout(self.ttl)

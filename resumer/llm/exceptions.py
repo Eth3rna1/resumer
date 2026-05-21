@@ -1,0 +1,2 @@
+class MaxTokensExceededException(RuntimeError):
+    pass
