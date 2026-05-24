@@ -3,6 +3,7 @@
 import os
 from dotenv import load_dotenv
 from resumer.llm import LLMClient
+from resumer.resume_handle import ResumeHandler
 from resumer.llm.exceptions import MaxTokensExceededException
 
 load_dotenv("./.env")
